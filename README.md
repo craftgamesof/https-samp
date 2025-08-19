@@ -9,6 +9,10 @@ Include e plugin para realizar **GET/POST/HEAD** com suporte a HTTPS, cabeçalho
 > * O **nome do seu callback** (passado em `https(...)`) é livre, **mas não pode** ser o mesmo do callback interno da fila.
 > * Este documento descreve apenas a **API Pawn** (sem detalhes internos).
 
+> [!WARNING]
+> - Na próxima atualização existe a possibilidade da remoção do campo **`data/body`** do https.
+> Ele será transferido para o uso de native pŕopria e modos melhores de inserçãopara que haja facilidade de manuseio.
+> A ideia é simplificar o uso e melhorar a inserção de dados sem que seja necessário usar o **`formart()`**.
 ---
 
 ## Instalação
